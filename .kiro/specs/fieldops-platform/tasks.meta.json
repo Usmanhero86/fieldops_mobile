@@ -1,0 +1,583 @@
+{
+  "pbtResults": {},
+  "executionHistory": {
+    "1.1 Create `lib/core/error/failures.dart` with `Failure`, `NetworkFailure`, `ServerFailure`, `LocalDbFailure`, `ValidationFailure`, `PermissionFailure` sealed classes extending `Equatable`": [
+      {
+        "executionId": "4ed143e2-d977-419b-a545-11c5d3e872a7",
+        "chatSessionId": "sess_08bfac03-e819-4fb4-9611-0ecd3e00b83d",
+        "timestamp": 1791133277909
+      },
+      {
+        "executionId": "4ed143e2-d977-419b-a545-11c5d3e872a7",
+        "chatSessionId": "sess_08bfac03-e819-4fb4-9611-0ecd3e00b83d",
+        "timestamp": 1791133295008
+      },
+      {
+        "executionId": "4ed143e2-d977-419b-a545-11c5d3e872a7",
+        "chatSessionId": "sess_08bfac03-e819-4fb4-9611-0ecd3e00b83d",
+        "timestamp": 1791133391636
+      }
+    ],
+    "1.2 Add `flutter_secure_storage: ^9.2.4` to `pubspec.yaml` and implement `SecureTokenStore` at `lib/core/storage/secure_token_store.dart`": [
+      {
+        "executionId": "4ed143e2-d977-419b-a545-11c5d3e872a7",
+        "chatSessionId": "sess_08bfac03-e819-4fb4-9611-0ecd3e00b83d",
+        "timestamp": 1791133279814
+      },
+      {
+        "executionId": "4ed143e2-d977-419b-a545-11c5d3e872a7",
+        "chatSessionId": "sess_08bfac03-e819-4fb4-9611-0ecd3e00b83d",
+        "timestamp": 1791133295307
+      },
+      {
+        "executionId": "4ed143e2-d977-419b-a545-11c5d3e872a7",
+        "chatSessionId": "sess_08bfac03-e819-4fb4-9611-0ecd3e00b83d",
+        "timestamp": 1791133392399
+      }
+    ],
+    "1.3 Harden `DioClient` at `lib/core/network/dio_client.dart`": [
+      {
+        "executionId": "4ed143e2-d977-419b-a545-11c5d3e872a7",
+        "chatSessionId": "sess_08bfac03-e819-4fb4-9611-0ecd3e00b83d",
+        "timestamp": 1791133280835
+      },
+      {
+        "executionId": "4ed143e2-d977-419b-a545-11c5d3e872a7",
+        "chatSessionId": "sess_08bfac03-e819-4fb4-9611-0ecd3e00b83d",
+        "timestamp": 1791133396299
+      }
+    ],
+    "1.4 Write unit tests for `AuthInterceptor` and `ErrorInterceptor`": [
+      {
+        "executionId": "4ed143e2-d977-419b-a545-11c5d3e872a7",
+        "chatSessionId": "sess_08bfac03-e819-4fb4-9611-0ecd3e00b83d",
+        "timestamp": 1791133281513
+      },
+      {
+        "executionId": "b1a7a302-df17-43bd-a89f-f716a0297673",
+        "chatSessionId": "sess_7954f7c0-90d3-41bb-8699-d217144f2075",
+        "timestamp": 1791145113880
+      }
+    ],
+    "2.1 Create `lib/core/storage/app_database.dart` with all five Drift tables: `users`, `projects`, `communities`, `beneficiaries`, `field_activities`, and `activity_photos`": [
+      {
+        "executionId": "4ed143e2-d977-419b-a545-11c5d3e872a7",
+        "chatSessionId": "sess_08bfac03-e819-4fb4-9611-0ecd3e00b83d",
+        "timestamp": 1791133281813
+      },
+      {
+        "executionId": "4ed143e2-d977-419b-a545-11c5d3e872a7",
+        "chatSessionId": "sess_08bfac03-e819-4fb4-9611-0ecd3e00b83d",
+        "timestamp": 1791133396965
+      }
+    ],
+    "2.2 Write property test for offline round-trip data access (Property 4)": [
+      {
+        "executionId": "4ed143e2-d977-419b-a545-11c5d3e872a7",
+        "chatSessionId": "sess_08bfac03-e819-4fb4-9611-0ecd3e00b83d",
+        "timestamp": 1791133282133
+      },
+      {
+        "executionId": "b1a7a302-df17-43bd-a89f-f716a0297673",
+        "chatSessionId": "sess_7954f7c0-90d3-41bb-8699-d217144f2075",
+        "timestamp": 1791145131721
+      }
+    ],
+    "2.3 Write property test for Local_DB integrity after restart (Property 28)": [
+      {
+        "executionId": "4ed143e2-d977-419b-a545-11c5d3e872a7",
+        "chatSessionId": "sess_08bfac03-e819-4fb4-9611-0ecd3e00b83d",
+        "timestamp": 1791133282481
+      },
+      {
+        "executionId": "b1a7a302-df17-43bd-a89f-f716a0297673",
+        "chatSessionId": "sess_7954f7c0-90d3-41bb-8699-d217144f2075",
+        "timestamp": 1791145138779
+      }
+    ],
+    "3.1 Expand `lib/core/routes/app_router.dart` with all named routes from the design": [
+      {
+        "executionId": "4ed143e2-d977-419b-a545-11c5d3e872a7",
+        "chatSessionId": "sess_08bfac03-e819-4fb4-9611-0ecd3e00b83d",
+        "timestamp": 1791133282633
+      },
+      {
+        "executionId": "4ed143e2-d977-419b-a545-11c5d3e872a7",
+        "chatSessionId": "sess_08bfac03-e819-4fb4-9611-0ecd3e00b83d",
+        "timestamp": 1791133397435
+      }
+    ],
+    "3.2 Create `lib/injection_container/injection_container.dart`": [
+      {
+        "executionId": "4ed143e2-d977-419b-a545-11c5d3e872a7",
+        "chatSessionId": "sess_08bfac03-e819-4fb4-9611-0ecd3e00b83d",
+        "timestamp": 1791133282760
+      },
+      {
+        "executionId": "b1a7a302-df17-43bd-a89f-f716a0297673",
+        "chatSessionId": "sess_7954f7c0-90d3-41bb-8699-d217144f2075",
+        "timestamp": 1791145143268
+      }
+    ],
+    "3.3 Wire global error handler in `main.dart`": [
+      {
+        "executionId": "4ed143e2-d977-419b-a545-11c5d3e872a7",
+        "chatSessionId": "sess_08bfac03-e819-4fb4-9611-0ecd3e00b83d",
+        "timestamp": 1791133282869
+      },
+      {
+        "executionId": "b1a7a302-df17-43bd-a89f-f716a0297673",
+        "chatSessionId": "sess_7954f7c0-90d3-41bb-8699-d217144f2075",
+        "timestamp": 1791145165900
+      }
+    ],
+    "3.4 Write property test for unhandled exception stack trace suppression (Property 27)": [
+      {
+        "executionId": "4ed143e2-d977-419b-a545-11c5d3e872a7",
+        "chatSessionId": "sess_08bfac03-e819-4fb4-9611-0ecd3e00b83d",
+        "timestamp": 1791133282967
+      }
+    ],
+    "4. Checkpoint — core infrastructure complete": [
+      {
+        "executionId": "4ed143e2-d977-419b-a545-11c5d3e872a7",
+        "chatSessionId": "sess_08bfac03-e819-4fb4-9611-0ecd3e00b83d",
+        "timestamp": 1791133283070
+      }
+    ],
+    "5.1 Create auth domain layer: `AuthUser` entity, `AuthRepository` interface, `LoginUseCase`, `LogoutUseCase`, `CheckAuthStatusUseCase`": [
+      {
+        "executionId": "4ed143e2-d977-419b-a545-11c5d3e872a7",
+        "chatSessionId": "sess_08bfac03-e819-4fb4-9611-0ecd3e00b83d",
+        "timestamp": 1791133283252
+      }
+    ],
+    "5.2 Create auth data layer: `AuthRemoteDataSource` (POST `/auth/login`, POST `/auth/logout`), `AuthLocalDataSource` (token read/write via `SecureTokenStore`), `AuthRepositoryImpl`": [
+      {
+        "executionId": "4ed143e2-d977-419b-a545-11c5d3e872a7",
+        "chatSessionId": "sess_08bfac03-e819-4fb4-9611-0ecd3e00b83d",
+        "timestamp": 1791133283327
+      }
+    ],
+    "5.3 Write property test for session token round-trip (Property 1)": [
+      {
+        "executionId": "4ed143e2-d977-419b-a545-11c5d3e872a7",
+        "chatSessionId": "sess_08bfac03-e819-4fb4-9611-0ecd3e00b83d",
+        "timestamp": 1791133283402
+      }
+    ],
+    "5.4 Write property test for Bearer token on every authenticated request (Property 2)": [
+      {
+        "executionId": "4ed143e2-d977-419b-a545-11c5d3e872a7",
+        "chatSessionId": "sess_08bfac03-e819-4fb4-9611-0ecd3e00b83d",
+        "timestamp": 1791133283482
+      }
+    ],
+    "6.1 Create `AuthBloc` at `lib/features/auth/presentation/bloc/auth_bloc.dart`": [
+      {
+        "executionId": "4ed143e2-d977-419b-a545-11c5d3e872a7",
+        "chatSessionId": "sess_08bfac03-e819-4fb4-9611-0ecd3e00b83d",
+        "timestamp": 1791133283557
+      }
+    ],
+    "6.2 Implement `LoginScreen` at `lib/features/presentation/screens/login_screen.dart`": [
+      {
+        "executionId": "4ed143e2-d977-419b-a545-11c5d3e872a7",
+        "chatSessionId": "sess_08bfac03-e819-4fb4-9611-0ecd3e00b83d",
+        "timestamp": 1791133283642
+      }
+    ],
+    "6.3 Implement `SplashScreen` at `lib/features/presentation/screens/splash_screen.dart`": [
+      {
+        "executionId": "4ed143e2-d977-419b-a545-11c5d3e872a7",
+        "chatSessionId": "sess_08bfac03-e819-4fb4-9611-0ecd3e00b83d",
+        "timestamp": 1791133283736
+      }
+    ],
+    "6.4 Write property test for auto-login on valid stored token (Property 3)": [
+      {
+        "executionId": "4ed143e2-d977-419b-a545-11c5d3e872a7",
+        "chatSessionId": "sess_08bfac03-e819-4fb4-9611-0ecd3e00b83d",
+        "timestamp": 1791133283879
+      }
+    ],
+    "7. Checkpoint — auth complete": [
+      {
+        "executionId": "4ed143e2-d977-419b-a545-11c5d3e872a7",
+        "chatSessionId": "sess_08bfac03-e819-4fb4-9611-0ecd3e00b83d",
+        "timestamp": 1791133283978
+      }
+    ],
+    "8.1 Create domain layer for projects and communities": [
+      {
+        "executionId": "4ed143e2-d977-419b-a545-11c5d3e872a7",
+        "chatSessionId": "sess_08bfac03-e819-4fb4-9611-0ecd3e00b83d",
+        "timestamp": 1791133284051
+      }
+    ],
+    "8.2 Create data layer for projects and communities": [
+      {
+        "executionId": "4ed143e2-d977-419b-a545-11c5d3e872a7",
+        "chatSessionId": "sess_08bfac03-e819-4fb4-9611-0ecd3e00b83d",
+        "timestamp": 1791133284126
+      }
+    ],
+    "8.3 Create `ProjectsCubit` and `CommunitiesCubit`": [
+      {
+        "executionId": "4ed143e2-d977-419b-a545-11c5d3e872a7",
+        "chatSessionId": "sess_08bfac03-e819-4fb4-9611-0ecd3e00b83d",
+        "timestamp": 1791133284359
+      }
+    ],
+    "8.4 Build `ProjectsScreen` and `CommunitiesScreen`": [
+      {
+        "executionId": "4ed143e2-d977-419b-a545-11c5d3e872a7",
+        "chatSessionId": "sess_08bfac03-e819-4fb4-9611-0ecd3e00b83d",
+        "timestamp": 1791133284442
+      }
+    ],
+    "8.5 Write property test for community filter by project (Property 14)": [
+      {
+        "executionId": "4ed143e2-d977-419b-a545-11c5d3e872a7",
+        "chatSessionId": "sess_08bfac03-e819-4fb4-9611-0ecd3e00b83d",
+        "timestamp": 1791133284523
+      }
+    ],
+    "8.6 Write property test for Project list tile render completeness (Property 15)": [
+      {
+        "executionId": "4ed143e2-d977-419b-a545-11c5d3e872a7",
+        "chatSessionId": "sess_08bfac03-e819-4fb4-9611-0ecd3e00b83d",
+        "timestamp": 1791133284595
+      }
+    ],
+    "8.7 Write property test for Community list tile render completeness (Property 16)": [
+      {
+        "executionId": "4ed143e2-d977-419b-a545-11c5d3e872a7",
+        "chatSessionId": "sess_08bfac03-e819-4fb4-9611-0ecd3e00b83d",
+        "timestamp": 1791133284671
+      }
+    ],
+    "9.1 Create `DashboardCubit` at `lib/features/dashboard/presentation/cubit/dashboard_cubit.dart`": [
+      {
+        "executionId": "4ed143e2-d977-419b-a545-11c5d3e872a7",
+        "chatSessionId": "sess_08bfac03-e819-4fb4-9611-0ecd3e00b83d",
+        "timestamp": 1791133284759
+      }
+    ],
+    "9.2 Build `DashboardScreen` at `lib/features/dashboard/presentation/screens/dashboard_screen.dart`": [
+      {
+        "executionId": "4ed143e2-d977-419b-a545-11c5d3e872a7",
+        "chatSessionId": "sess_08bfac03-e819-4fb4-9611-0ecd3e00b83d",
+        "timestamp": 1791133284841
+      }
+    ],
+    "9.3 Write property test for Dashboard counts reflecting Local_DB state (Property 17)": [
+      {
+        "executionId": "4ed143e2-d977-419b-a545-11c5d3e872a7",
+        "chatSessionId": "sess_08bfac03-e819-4fb4-9611-0ecd3e00b83d",
+        "timestamp": 1791133284922
+      }
+    ],
+    "10.1 Create `ConnectivityService` at `lib/core/utils/connectivity_service.dart`": [
+      {
+        "executionId": "4ed143e2-d977-419b-a545-11c5d3e872a7",
+        "chatSessionId": "sess_08bfac03-e819-4fb4-9611-0ecd3e00b83d",
+        "timestamp": 1791133285124
+      }
+    ],
+    "10.2 Create `ConnectivityCubit` and `OfflineBannerWidget`": [
+      {
+        "executionId": "4ed143e2-d977-419b-a545-11c5d3e872a7",
+        "chatSessionId": "sess_08bfac03-e819-4fb4-9611-0ecd3e00b83d",
+        "timestamp": 1791133285249
+      }
+    ],
+    "11.1 Create beneficiary domain layer": [
+      {
+        "executionId": "4ed143e2-d977-419b-a545-11c5d3e872a7",
+        "chatSessionId": "sess_08bfac03-e819-4fb4-9611-0ecd3e00b83d",
+        "timestamp": 1791133285386
+      }
+    ],
+    "11.2 Create beneficiary data layer": [
+      {
+        "executionId": "4ed143e2-d977-419b-a545-11c5d3e872a7",
+        "chatSessionId": "sess_08bfac03-e819-4fb4-9611-0ecd3e00b83d",
+        "timestamp": 1791133285494
+      }
+    ],
+    "11.3 Write property test for mandatory field validation (Property 6)": [
+      {
+        "executionId": "4ed143e2-d977-419b-a545-11c5d3e872a7",
+        "chatSessionId": "sess_08bfac03-e819-4fb4-9611-0ecd3e00b83d",
+        "timestamp": 1791133285569
+      }
+    ],
+    "11.4 Write property test for offline record persisted as pending (Property 5)": [
+      {
+        "executionId": "4ed143e2-d977-419b-a545-11c5d3e872a7",
+        "chatSessionId": "sess_08bfac03-e819-4fb4-9611-0ecd3e00b83d",
+        "timestamp": 1791133285658
+      }
+    ],
+    "11.5 Write property test for duplicate beneficiary detection (Property 8)": [
+      {
+        "executionId": "4ed143e2-d977-419b-a545-11c5d3e872a7",
+        "chatSessionId": "sess_08bfac03-e819-4fb4-9611-0ecd3e00b83d",
+        "timestamp": 1791133285756
+      }
+    ],
+    "11.6 Write property test for registration metadata auto-capture (Property 7)": [
+      {
+        "executionId": "4ed143e2-d977-419b-a545-11c5d3e872a7",
+        "chatSessionId": "sess_08bfac03-e819-4fb4-9611-0ecd3e00b83d",
+        "timestamp": 1791133285854
+      }
+    ],
+    "12.1 Create `LocationService` at `lib/core/utils/location_service.dart`": [
+      {
+        "executionId": "4ed143e2-d977-419b-a545-11c5d3e872a7",
+        "chatSessionId": "sess_08bfac03-e819-4fb4-9611-0ecd3e00b83d",
+        "timestamp": 1791133285983
+      }
+    ],
+    "12.2 Create `PermissionService` at `lib/core/utils/permission_service.dart`": [
+      {
+        "executionId": "4ed143e2-d977-419b-a545-11c5d3e872a7",
+        "chatSessionId": "sess_08bfac03-e819-4fb4-9611-0ecd3e00b83d",
+        "timestamp": 1791133286125
+      }
+    ],
+    "12.3 Create `PhotoStorageService` at `lib/core/utils/photo_storage_service.dart`": [
+      {
+        "executionId": "4ed143e2-d977-419b-a545-11c5d3e872a7",
+        "chatSessionId": "sess_08bfac03-e819-4fb4-9611-0ecd3e00b83d",
+        "timestamp": 1791133286251
+      }
+    ],
+    "12.4 Write property test for photo path persistence (Property 10)": [
+      {
+        "executionId": "4ed143e2-d977-419b-a545-11c5d3e872a7",
+        "chatSessionId": "sess_08bfac03-e819-4fb4-9611-0ecd3e00b83d",
+        "timestamp": 1791133286444
+      }
+    ],
+    "13.1 Create `BeneficiaryBloc` at `lib/features/beneficiaries/presentation/bloc/beneficiary_bloc.dart`": [
+      {
+        "executionId": "4ed143e2-d977-419b-a545-11c5d3e872a7",
+        "chatSessionId": "sess_08bfac03-e819-4fb4-9611-0ecd3e00b83d",
+        "timestamp": 1791133286543
+      }
+    ],
+    "13.2 Build `BeneficiariesScreen` (list) and `BeneficiaryRegistrationScreen` (multi-step form)": [
+      {
+        "executionId": "4ed143e2-d977-419b-a545-11c5d3e872a7",
+        "chatSessionId": "sess_08bfac03-e819-4fb4-9611-0ecd3e00b83d",
+        "timestamp": 1791133286633
+      }
+    ],
+    "13.3 Write property test for newly saved record appears in list (Property 9)": [
+      {
+        "executionId": "4ed143e2-d977-419b-a545-11c5d3e872a7",
+        "chatSessionId": "sess_08bfac03-e819-4fb4-9611-0ecd3e00b83d",
+        "timestamp": 1791133286727
+      }
+    ],
+    "13.4 Write property test for form data preserved on error (Property 26)": [
+      {
+        "executionId": "4ed143e2-d977-419b-a545-11c5d3e872a7",
+        "chatSessionId": "sess_08bfac03-e819-4fb4-9611-0ecd3e00b83d",
+        "timestamp": 1791133286812
+      }
+    ],
+    "14. Checkpoint — beneficiary registration complete": [
+      {
+        "executionId": "4ed143e2-d977-419b-a545-11c5d3e872a7",
+        "chatSessionId": "sess_08bfac03-e819-4fb4-9611-0ecd3e00b83d",
+        "timestamp": 1791133286908
+      }
+    ],
+    "15.1 Create activity domain layer": [
+      {
+        "executionId": "4ed143e2-d977-419b-a545-11c5d3e872a7",
+        "chatSessionId": "sess_08bfac03-e819-4fb4-9611-0ecd3e00b83d",
+        "timestamp": 1791133287044
+      }
+    ],
+    "15.2 Create activity data layer": [
+      {
+        "executionId": "4ed143e2-d977-419b-a545-11c5d3e872a7",
+        "chatSessionId": "sess_08bfac03-e819-4fb4-9611-0ecd3e00b83d",
+        "timestamp": 1791133287168
+      }
+    ],
+    "15.3 Write property test for non-negative participant counts (Property 13)": [
+      {
+        "executionId": "4ed143e2-d977-419b-a545-11c5d3e872a7",
+        "chatSessionId": "sess_08bfac03-e819-4fb4-9611-0ecd3e00b83d",
+        "timestamp": 1791133287256
+      }
+    ],
+    "15.4 Write property test for multiple photos per activity (Property 11)": [
+      {
+        "executionId": "4ed143e2-d977-419b-a545-11c5d3e872a7",
+        "chatSessionId": "sess_08bfac03-e819-4fb4-9611-0ecd3e00b83d",
+        "timestamp": 1791133287333
+      }
+    ],
+    "15.5 Create `ActivityBloc` at `lib/features/actitivies/presentation/bloc/activity_bloc.dart`": [
+      {
+        "executionId": "4ed143e2-d977-419b-a545-11c5d3e872a7",
+        "chatSessionId": "sess_08bfac03-e819-4fb4-9611-0ecd3e00b83d",
+        "timestamp": 1791133287419
+      }
+    ],
+    "15.6 Build `ActivitiesScreen` (list) and `ActivityLogScreen` (form)": [
+      {
+        "executionId": "4ed143e2-d977-419b-a545-11c5d3e872a7",
+        "chatSessionId": "sess_08bfac03-e819-4fb4-9611-0ecd3e00b83d",
+        "timestamp": 1791133287492
+      }
+    ],
+    "16.1 Add Drift watch queries and pending record retrieval to `AppDatabase`": [
+      {
+        "executionId": "4ed143e2-d977-419b-a545-11c5d3e872a7",
+        "chatSessionId": "sess_08bfac03-e819-4fb4-9611-0ecd3e00b83d",
+        "timestamp": 1791133287565
+      }
+    ],
+    "16.2 Implement `SyncEngine` at `lib/features/sync/sync_engine.dart`": [
+      {
+        "executionId": "4ed143e2-d977-419b-a545-11c5d3e872a7",
+        "chatSessionId": "sess_08bfac03-e819-4fb4-9611-0ecd3e00b83d",
+        "timestamp": 1791133287646
+      }
+    ],
+    "16.3 Create `SyncStatusCubit` and `SyncStatusBanner` widget": [
+      {
+        "executionId": "4ed143e2-d977-419b-a545-11c5d3e872a7",
+        "chatSessionId": "sess_08bfac03-e819-4fb4-9611-0ecd3e00b83d",
+        "timestamp": 1791133287725
+      }
+    ],
+    "16.4 Write property test for sync ordering — oldest first (Property 18)": [
+      {
+        "executionId": "4ed143e2-d977-419b-a545-11c5d3e872a7",
+        "chatSessionId": "sess_08bfac03-e819-4fb4-9611-0ecd3e00b83d",
+        "timestamp": 1791133287814
+      }
+    ],
+    "16.5 Write property test for successful upload marks record as synced (Property 19)": [
+      {
+        "executionId": "4ed143e2-d977-419b-a545-11c5d3e872a7",
+        "chatSessionId": "sess_08bfac03-e819-4fb4-9611-0ecd3e00b83d",
+        "timestamp": 1791133287898
+      }
+    ],
+    "16.6 Write property test for non-retryable error marks record as failed (Property 20)": [
+      {
+        "executionId": "4ed143e2-d977-419b-a545-11c5d3e872a7",
+        "chatSessionId": "sess_08bfac03-e819-4fb4-9611-0ecd3e00b83d",
+        "timestamp": 1791133287990
+      }
+    ],
+    "16.7 Write property test for retryable error preserves pending status (Property 21)": [
+      {
+        "executionId": "4ed143e2-d977-419b-a545-11c5d3e872a7",
+        "chatSessionId": "sess_08bfac03-e819-4fb4-9611-0ecd3e00b83d",
+        "timestamp": 1791133288064
+      }
+    ],
+    "16.8 Write property test for photo sync failure does not block record sync (Property 12)": [
+      {
+        "executionId": "4ed143e2-d977-419b-a545-11c5d3e872a7",
+        "chatSessionId": "sess_08bfac03-e819-4fb4-9611-0ecd3e00b83d",
+        "timestamp": 1791133288146
+      }
+    ],
+    "16.9 Write property test for sync status banner reflects pending count (Property 22)": [
+      {
+        "executionId": "4ed143e2-d977-419b-a545-11c5d3e872a7",
+        "chatSessionId": "sess_08bfac03-e819-4fb4-9611-0ecd3e00b83d",
+        "timestamp": 1791133288305
+      }
+    ],
+    "17.1 Build `PendingSyncScreen` at `lib/features/sync/presentation/screens/pending_sync_screen.dart`": [
+      {
+        "executionId": "4ed143e2-d977-419b-a545-11c5d3e872a7",
+        "chatSessionId": "sess_08bfac03-e819-4fb4-9611-0ecd3e00b83d",
+        "timestamp": 1791133288472
+      }
+    ],
+    "17.2 Write property test for pending screen display completeness (Property 23)": [
+      {
+        "executionId": "4ed143e2-d977-419b-a545-11c5d3e872a7",
+        "chatSessionId": "sess_08bfac03-e819-4fb4-9611-0ecd3e00b83d",
+        "timestamp": 1791133288553
+      }
+    ],
+    "17.3 Write property test for failed record shows retry action (Property 24)": [
+      {
+        "executionId": "4ed143e2-d977-419b-a545-11c5d3e872a7",
+        "chatSessionId": "sess_08bfac03-e819-4fb4-9611-0ecd3e00b83d",
+        "timestamp": 1791133288633
+      }
+    ],
+    "18. Checkpoint — sync engine and pending screen complete": [
+      {
+        "executionId": "4ed143e2-d977-419b-a545-11c5d3e872a7",
+        "chatSessionId": "sess_08bfac03-e819-4fb4-9611-0ecd3e00b83d",
+        "timestamp": 1791133288722
+      }
+    ],
+    "19.1 Create profile domain and data layers": [
+      {
+        "executionId": "4ed143e2-d977-419b-a545-11c5d3e872a7",
+        "chatSessionId": "sess_08bfac03-e819-4fb4-9611-0ecd3e00b83d",
+        "timestamp": 1791133288812
+      }
+    ],
+    "19.2 Build `ProfileScreen` at `lib/features/profile/presentation/screens/profile_screen.dart`": [
+      {
+        "executionId": "4ed143e2-d977-419b-a545-11c5d3e872a7",
+        "chatSessionId": "sess_08bfac03-e819-4fb4-9611-0ecd3e00b83d",
+        "timestamp": 1791133288924
+      }
+    ],
+    "19.3 Write property test for profile screen render completeness (Property 25)": [
+      {
+        "executionId": "4ed143e2-d977-419b-a545-11c5d3e872a7",
+        "chatSessionId": "sess_08bfac03-e819-4fb4-9611-0ecd3e00b83d",
+        "timestamp": 1791133289033
+      }
+    ],
+    "20.1 Replace all placeholder routes in `AppRouter` with real screen classes": [
+      {
+        "executionId": "4ed143e2-d977-419b-a545-11c5d3e872a7",
+        "chatSessionId": "sess_08bfac03-e819-4fb4-9611-0ecd3e00b83d",
+        "timestamp": 1791133289147
+      }
+    ],
+    "20.2 Add Project context navigation guard": [
+      {
+        "executionId": "4ed143e2-d977-419b-a545-11c5d3e872a7",
+        "chatSessionId": "sess_08bfac03-e819-4fb4-9611-0ecd3e00b83d",
+        "timestamp": 1791133289263
+      }
+    ],
+    "20.3 Mount `BlocProvider` hierarchy above navigator root in `app.dart`": [
+      {
+        "executionId": "4ed143e2-d977-419b-a545-11c5d3e872a7",
+        "chatSessionId": "sess_08bfac03-e819-4fb4-9611-0ecd3e00b83d",
+        "timestamp": 1791133289372
+      }
+    ],
+    "21. Final checkpoint — full integration": [
+      {
+        "executionId": "4ed143e2-d977-419b-a545-11c5d3e872a7",
+        "chatSessionId": "sess_08bfac03-e819-4fb4-9611-0ecd3e00b83d",
+        "timestamp": 1791133289462
+      }
+    ]
+  }
+}
